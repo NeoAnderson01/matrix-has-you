@@ -1,0 +1,275 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+::-webkit-scrollbar {
+  width: 0;
+}
+$green: #86BB71;
+$blue: #94C2ED;
+$orange: #E38968;
+$gray: #92959E;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.chat-container {
+  margin-top: 80px;
+}
+.container1 {
+  min-width: 1149px;
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(14, 13, 13, 0.658);
+  border-radius: 5px;
+  height: 790px;
+}
+
+.people-list {
+  width:260px;
+  float: left;
+  
+  .search {
+    padding: 20px;
+  }
+  
+  input {
+    border-radius: 3px;
+    padding: 14px;
+    color: #39ff14;
+    background:  black;
+    width:100%;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #39ff14;
+    border-radius: 20px;
+    outline: none;
+  }
+  input::placeholder {
+    color: #39ff14;
+  }
+  .fa-search {
+    position: relative;
+    bottom: 30px;
+    right: -20px;
+  }
+  
+  ul {
+    padding: 20px;
+    height: 500px;
+ 
+    
+    
+    
+    li {
+      padding-bottom: 8px;
+    }
+  }
+  
+  img {
+    float: left;
+    border-radius: 20px;
+    border: 2px solid #39ff14;
+  }
+  
+  .about {
+    float: left;
+    margin-top: 8px;
+  }
+  
+  .about {
+    padding-left: 8px;
+  }
+  
+  .status {
+    color: #990000;
+  }
+  
+}
+.name {
+  color: #39ff14;
+  margin-bottom: 10px;
+}
+.chat {
+  border: 1px solid #39ff14;
+  margin: 5px;
+  height: 750px;
+  width: 76%;
+  float:left;
+  background: #000000;
+  border-radius: 20px;
+  margin-top: 20px;
+  
+  color: #39ff14;
+  
+  .chat-header {
+    padding: 20px;
+    border-bottom: 2px solid #39ff14;
+    
+    img {
+      float: left;
+    }
+    
+    .chat-about {
+      float: left;
+      padding-left: 10px;
+      margin-top: 6px;
+    }
+    
+    .chat-with {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    
+    .chat-num-messages {
+      color: $gray;
+    }
+    
+    .fa-star {
+      float: right;
+      color: #39ff14;
+      font-size: 20px;
+      margin-top: 12px;
+    }
+  }
+  
+  .chat-history {
+    padding: 30px 30px 20px;
+    border-bottom: 2px solid #39ff14;
+    overflow-y: scroll;
+    height: 450px;
+    
+    .message-data {
+      margin-bottom: 15px;
+    }
+    
+    .message-data-time {
+      color: #39ff14;
+      padding-left: 6px;
+    }
+    
+    .message {      
+      color: white;
+      padding: 18px 20px;
+      line-height: 26px;
+      font-size: 16px;
+      border-radius: 7px;
+      margin-bottom: 30px;
+      width: 90%;
+      position: relative;
+      
+      &:after {
+        bottom: 100%;
+        left: 7%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-bottom-color: $green;
+        border-width: 10px;
+        margin-left: -10px;
+      }
+    }
+    
+    .my-message {
+      background: $green;
+    }
+    
+    .other-message {
+      background: $blue;
+      
+      &:after {
+        border-bottom-color: $blue;
+        left: 93%;
+      }
+    }
+    
+  }
+  
+  .chat-message {
+    padding: 30px;
+    
+    textarea {
+      width: 100%;
+      border: none;
+      padding: 10px 20px;
+      font: 14px/22px "Lato", Arial, sans-serif;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      resize: none;
+      color: #39ff14;
+      background-color: #000000;
+      border: 1px solid #39ff14;
+    }
+    textarea::placeholder {
+      color: #39ff14;
+    }
+    
+    .fa-file-o, .fa-file-image-o {
+      font-size: 16px;
+      color: #39ff14;
+      cursor: pointer;
+      
+    }
+    
+    button {
+      float: right;
+      color: $blue;
+      font-size: 16px;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+      font-weight: bold;
+      background: #39ff14;
+      color: #000000;
+      
+      &:hover {
+        color: darken($blue, 7%);
+      }
+    }
+  }
+}
+
+.online, .offline, .me {
+    margin-right: 3px;
+    font-size: 10px;
+  }
+  
+.online {
+  color:#39ff14;
+}
+  
+.offline {
+  color: red;
+}
+
+.me {
+  color: $blue;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+@media screen and (max-width: 787px) {
+ .chat {
+  width: 74%;
+ }
+}

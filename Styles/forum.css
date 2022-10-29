@@ -1,0 +1,205 @@
+.icon-container  {
+    display: inline-block;
+}
+.icon-container .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    filter: invert(76%) sepia(14%) saturate(6581%) hue-rotate(60deg) brightness(108%) contrast(107%);
+    cursor: pointer;
+}
+.icon-container .icon:hover {
+    filter: invert(12%) sepia(70%) saturate(5992%) hue-rotate(358deg) brightness(118%) contrast(120%);
+}
+.image-container {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+    border-bottom-color: #39ff14;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+.icon-body {
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.content-container {
+    border: 2px solid #39ff14;
+    margin-bottom: 50px;
+}
+.content-container .content-body  p{
+    color: #39ff14;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5vw;
+    margin: 15px;
+    border: 1px solid #39ff14;
+    padding: 15px;
+}
+.content-container{
+    background-color: rgb(5, 5, 5);
+}
+.content-image-body {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.content-container .content-body .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        filter: invert(76%) sepia(14%) saturate(6581%) hue-rotate(60deg) brightness(108%) contrast(107%);
+        cursor: pointer;
+        padding-top: 10px;
+        display: inline-block;
+        vertical-align: middle;
+}
+.content-container .content-body .icon:hover {
+    filter: invert(12%) sepia(70%) saturate(5992%) hue-rotate(358deg) brightness(118%) contrast(120%);
+}
+.image-container-body {
+    margin: 15px;
+    border: 2px solid #39ff14;
+}
+.content-container .content-body h3 {
+    border: 2px solid #39ff14;
+    padding: 15px;
+    font-size: 1.5vw;
+    margin-top: 20px;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #39ff14;
+    border-radius: 50px;
+}
+.content-container .content-body {
+    border: 2px solid green;
+}
+.content-container .content-body .data-body {
+    float: right;              
+    color: #39ff14;
+    font-size: 1.5vw;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.content-body-icon {
+    width: 20px;
+    float: right;
+    margin: 15px;
+    margin-top: 20px;
+}
+.content-body-image {
+    display: inline-block;
+    width: 50px;
+    float: right;
+    filter: invert(76%) sepia(14%) saturate(6581%) hue-rotate(60deg) brightness(108%) contrast(107%);
+}
+.function-icons-image {
+    width: 70px;
+    filter: invert(76%) sepia(14%) saturate(6581%) hue-rotate(60deg) brightness(108%) contrast(107%);
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+ .function-text {
+    color: #39ff14;
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+.function-icons-like {
+    display: inline-block;
+    width: 60px;
+    vertical-align: middle;
+    float: right;
+    margin: 5px;
+    filter: invert(76%) sepia(14%) saturate(6581%) hue-rotate(60deg) brightness(108%) contrast(107%);
+}
+.function-icons-share {
+    display: inline-block;
+    width: 55px;
+    vertical-align: middle;
+    margin: 5px;
+}
+.function-text{  
+    color: #39ff14;
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: -10px;
+    padding-left: 40px;
+}
+.function-text-2 {
+    color: #39ff14;
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 30px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding-right: 10px;
+    height: 100px;
+    padding-left: 100px;
+}
+.function-text-3 {
+    color: #39ff14;
+    font-size: 1.5vw;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.reaction-box {
+    display: inline-block;
+    text-align: center;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.function-icons-image{
+    text-align: center;
+    margin-left: 40px;
+}
+.image-size {
+    width: 70px;
+    height: 70px;
+}
+.function-text-3 {
+    padding-left: 180px;
+    text-align: center;
+    border-left-width: 2px;
+    border-left-color: #39ff14;
+    border-left-style: solid;
+    height: 100px;  
+}
+.text-right {
+    margin-left: -150px;
+}
+.text-down {
+    line-height: 100px;
+}
+.image-down {
+    margin-top: 10px;
+}
+.reaction-container {
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    height: -100px;
+}
+.reaction-container-2 {
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: right;
+}
+
+/* Hover Effects  */
